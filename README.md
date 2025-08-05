@@ -1,9 +1,9 @@
-- 👋 Hi, I’m @JamesOsborneTtee
+- 👋 Hi, I’m @JamesRichardOsborneTtee
 - 👀 I’m interested in partnerships
 - 🌱 I’m currently learning ai learning & coding 
-- 💞️ I’m looking to collaborate on google cloud ai
+- 💞️ I’m looking to collaborate on google cloud ai,copilot ai, gemini ai, perplexity ai
 - 📫 How to reach me jamesbgamgmt945@gmail.com
-- 😄 Pronouns: 
+- 😄 Pronouns: He/Him/His
 - ⚡ Fun fact: ...
 
 <!---
