@@ -1,0 +1,27 @@
+name: Security
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  codeql:
+    name: Analyze
+    uses: github/codeql-action/analyze@v2
+    with:
+      languages: 'javascript'  # You can adjust this based on your project's languages
+      paths: 'src'             # Specify path to analyze
+
+  dependency-review:
+    name: Dependency Review
+    uses: github/dependency-review-action@v2
+    with:
+      project: true  # Set to true to analyze the project for dependency changes
+
+  secret-scanning:
+    name: Secret Scanning
+    uses: github/codeql-action/secret-scanning@v2
